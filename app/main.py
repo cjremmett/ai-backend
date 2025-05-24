@@ -34,4 +34,4 @@ async def handle_chat_message(sid, data):
 # To run the app using uvicorn, we will use socket_app
 # This ensures both FastAPI and Socket.IO are served correctly.
 if __name__ == "__main__":
-    uvicorn.run(socket_app, host="0.0.0.0", port=7777)
+    uvicorn.run(socket_app, host="0.0.0.0", port=3101)
